@@ -26,7 +26,7 @@ def handler(event, context):
 
     try:
         client.send_email(
-            Source='admin@anydef.io',
+            Source='source@email.com',
             Destination={
                 'ToAddresses': [
                     'test_account@email.com',
